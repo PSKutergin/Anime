@@ -6,10 +6,8 @@ const detailsData = () => {
 
     ganres.forEach((ganre) => {
       dropdownBlock.insertAdjacentHTML(
-        'beforeend',
-        `
-            <li><a href="./categories.html?ganre=${ganre}">${ganre}</a></li>
-          `,
+        'beforeend', `
+            <li><a href="./categories.html?ganre=${ganre}">${ganre}</a></li>`,
       )
     })
   }
